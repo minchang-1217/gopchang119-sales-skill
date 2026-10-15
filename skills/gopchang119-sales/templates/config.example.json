@@ -1,0 +1,32 @@
+{
+  "store_name": "곱창119 ○○점",
+  "close_time": "02:00",
+  "hall_day_cutoff": "06:00",
+  "hall_guest_window": ["16:00", "02:00"],
+  "sheet": {
+    "url": "https://docs.google.com/spreadsheets/d/여기에-시트-ID/edit",
+    "tab": "26년하반기",
+    "date_column": "B",
+    "columns": {
+      "baemin": "C",
+      "coupang": "D",
+      "yogiyo": "E",
+      "ddangyo": "F",
+      "naver_order": "G",
+      "toss_hall": "H",
+      "hall_guests": "L",
+      "memo": "M"
+    },
+    "do_not_touch": ["I", "J", "K"]
+  },
+  "channels": {
+    "baemin": { "enabled": true, "url": "https://self.baemin.com/orders/history" },
+    "coupang": { "enabled": true, "url": "https://store.coupangeats.com/merchant/management/orders/매장번호" },
+    "yogiyo": { "enabled": true, "url": "https://ceo.yogiyo.co.kr/order-history/list" },
+    "ddangyo": { "enabled": true, "url": "https://boss.ddangyo.com/#SH0402" },
+    "naver_order": { "enabled": true, "url": "https://partner.booking.naver.com/bizes/매장번호/order-list-view" },
+    "toss_hall": { "enabled": true, "url": "https://dashboard.tossplace.com/m/매장번호/merchant-management/payment-history" }
+  },
+  "extra_channels": [],
+  "backfill_days": 10
+}
